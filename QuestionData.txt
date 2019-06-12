@@ -1,1 +1,86 @@
-85Which of the following is Mr. Lantsberger’s exclamation of choice?A. ACK!!!! (correct)B. BACK!!!!C. HACK!!!!D. LACK!!!!Fill in the following expression: “Do you have your _________?”A. ticket to playB. ticket to hackC. ticket to ride (correct)D. ticket to pseudocodeOrder the following expressions: 1. Bags up! 2. Do you have something to do? 3. I’m sure you do! 4. Wheels out!A. 1, 2, 3, 4B. 2, 1, 3, 4C. 4, 3, 2, 1D. 2, 3, 1, 4 (correct)Which of these does not belong?A. l337 H4ckz0rB. c0d3rC. n00bD. Tryh4rd (correct)Which of these bands is famous for the song “Bohemian Rhapsody”, among others?A. KingB. Queen (correct)C. PrinceD. MosolovWhich of these songs is the shortest?A. Napalm Death - You Suffer (correct)B. Rush - Tom SawyerC. Thomas Joel - I SufferD. Yes - RoundaboutWhich of these methods are permitted during assessments?A. Smoke signalsB. Morse Code and ESPC. Sign LanguageD. None of the above (correct)What is the first instrument that you hear in CS?A. Didgeridoo (correct)B. ZhengC. GuitarD. BassWhat is the meaning of life, the universe and everything?A. Goto statementsB. Public instance variablesC. 42 (correct)D. Multiple Exit StatementsC code:A. Performs better than JavaB. Compiles then links (correct)C. Crashes on runtimeD. Links then compilesWhich one of these is the worst?A. Game of Thrones spoilersB. MCU spoilersC. Global VariablesD. All are strictly forbidden (correct)Who are the second laziest people on the planet?A. PhysicistsB. MathematiciansC. Programmers (correct)D. Rocket ScientistWhich one of these does not belong?A. Magical MondayB. Thankful ThursdayC. Wacky Wednesday (correct)D. Fantastic FridayIn which foreign country did Mr. Lantsberger teach?A. AustraliaB. ItalyC. DjiboutiD. GermanyWhat do stones and bubbles do?A. Sink and riseB. Swim and diveC. Drown and dieD. Code and cryWhat does PEMDAS stand for?A. Parenthesis Exponents Multiplication Division Addition SubtractionB. Pretty Excellent Mathematicians Doing Additive SumsC. Puh Em Duh Ah SssD. Please Execute My Dumb A** Sibling (correct)There are __ types of people in the world: those that understand binary and those that don’t.A. 10B. 2 (correct)C. 42D. F
+85
+Which of the following is Mr. Lantsberger’s exclamation of choice?
+A. ACK!!!! (correct)
+B. BACK!!!!
+C. HACK!!!!
+D. LACK!!!!
+Fill in the following expression: “Do you have your _________?”
+A. ticket to play
+B. ticket to hack
+C. ticket to ride (correct)
+D. ticket to pseudocode
+Order the following expressions: 1. Bags up! 2. Do you have something to do? 3. I’m sure you do! 4. Wheels out!
+A. 1, 2, 3, 4
+B. 2, 1, 3, 4
+C. 4, 3, 2, 1
+D. 2, 3, 1, 4 (correct)
+Which of these does not belong?
+A. l337 H4ckz0r
+B. c0d3r
+C. n00b
+D. Tryh4rd (correct)
+Which of these bands is famous for the song “Bohemian Rhapsody”, among others?
+A. King
+B. Queen (correct)
+C. Prince
+D. Mosolov
+Which of these songs is the shortest?
+A. Napalm Death - You Suffer (correct)
+B. Rush - Tom Sawyer
+C. Thomas Joel - I Suffer
+D. Yes - Roundabout
+Which of these methods are permitted during assessments?
+A. Smoke signals
+B. Morse Code and ESP
+C. Sign Language
+D. None of the above (correct)
+What is the first instrument that you hear in CS?
+A. Didgeridoo (correct)
+B. Zheng
+C. Guitar
+D. Bass
+What is the meaning of life, the universe and everything?
+A. Goto statements
+B. Public instance variables
+C. 42 (correct)
+D. Multiple Exit Statements
+C code:
+A. Performs better than Java
+B. Compiles then links (correct)
+C. Crashes on runtime
+D. Links then compiles
+Which one of these is the worst?
+A. Game of Thrones spoilers
+B. MCU spoilers
+C. Global Variables
+D. All are strictly forbidden (correct)
+Who are the second laziest people on the planet?
+A. Physicists
+B. Mathematicians
+C. Programmers (correct)
+D. Rocket Scientist
+Which one of these does not belong?
+A. Magical Monday
+B. Thankful Thursday
+C. Wacky Wednesday (correct)
+D. Fantastic Friday
+In which foreign country did Mr. Lantsberger teach?
+A. Australia
+B. Italy (correct)
+C. Djibouti
+D. Germany
+What do stones and bubbles do?
+A. Sink and rise (correct)
+B. Swim and dive
+C. Drown and die
+D. Code and cry
+What does PEMDAS stand for?
+A. Parenthesis Exponents Multiplication Division Addition Subtraction
+B. Pretty Excellent Mathematicians Doing Additive Sums
+C. Puh Em Duh Ah Sss
+D. Please Execute My Dumb A** Sibling (correct)
+There are __ types of people in the world: those that understand binary and those that don’t.
+A. 10
+B. 2 (correct)
+C. 42
+D. F
