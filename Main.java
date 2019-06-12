@@ -9,15 +9,37 @@ import javafx.scene.control.Label;
 import javafx.event.EventHandler;
 import javafx.event.ActionEvent;
 
+/**
+ * Main Application for JavaFX
+ * @author Matthew Oh c:
+ * Thanks for being such an awesome teacher
+ */
 public class Main extends Application
 {
     public static void main(String[] args) {launch(args);}
     
     public void start(Stage stage)
     {
-        //ill probably make this stuff into a seperate method 
         Group quizLayout = new Group();
         Scene quiz = new Scene(quizLayout);
+        initilize(quizLayout);
+        
+        //Group layout = new Group();
+        //Button b = new Button("test");
+        //View view = new View(layout);
+        //Rectangle r = new Rectangle(500,500,Color.WHITE);
+        //layout.getChildren().addAll(r);
+        //layout.getChildren().addAll(b);
+        //Scene scene = new Scene(layout);
+        stage.setScene(quiz);
+        stage.sizeToScene();
+        stage.setTitle("THANK YOU MR. L");
+        stage.setResizable(false);
+        stage.show();
+    }
+    
+    private static void initilize(Group layout)
+    {
         Rectangle r = new Rectangle(500,500,Color.WHITE);
         Button b1 = new Button("answer1");
         b1.relocate(10,280);
@@ -50,9 +72,8 @@ public class Main extends Application
         cont.setMaxHeight(30);
         //Rectangle res = new Rectangle(480, 30, Color.BLUE);
         //res.relocate(10,240);
-        quizLayout.getChildren().addAll(r,b1,b2,b3,b4,que,result,cont);
+        layout.getChildren().addAll(r,b1,b2,b3,b4,que,result,cont);
         //still need to set up button functionality
-        /*
         b1.setOnAction(new EventHandler<ActionEvent>()
         {
             public void handle(ActionEvent event)
@@ -60,20 +81,5 @@ public class Main extends Application
                 
             }
         });
-        */
-        
-        
-        //Group layout = new Group();
-        //Button b = new Button("test");
-        //View view = new View(layout);
-        //Rectangle r = new Rectangle(500,500,Color.WHITE);
-        //layout.getChildren().addAll(r);
-        //layout.getChildren().addAll(b);
-        //Scene scene = new Scene(layout);
-        stage.setScene(quiz);
-        stage.sizeToScene();
-        stage.setTitle("THANK YOU MR. L");
-        stage.setResizable(false);
-        stage.show();
     }
 }
