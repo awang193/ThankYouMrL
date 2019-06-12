@@ -1,3 +1,7 @@
+/** @author Kelechi Uhegbu
+ *  My contribution to end of the year project with questionable object oriented design.
+ *  Thank you for being our teacher and mentor for these great years.
+ */
 public class Quiz
 {
     Question questions[];
