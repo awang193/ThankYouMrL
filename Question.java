@@ -35,6 +35,11 @@ public class Question
 
 
     // Methods
+    public String getQuestionText()
+    {
+        return questionText;
+    }
+
     /**
      * getChoiceText() - Returns the text for a given answer choice
      * @param choiceNum - int from 0-3 corresponding with A-D
@@ -42,7 +47,12 @@ public class Question
      */
     public String getChoiceText(int choiceNum)
     {
-        return answerChoices[choiceNum];
+        String choiceText = answerChoices[choiceNum];
+
+        if (choiceText.indexOf("(correct)") != -1)
+            choiceText = choiceText.substring(0, choiceText.indexOf("(correct)"));
+
+        return choiceText;
     }
 
     /**
@@ -54,6 +64,4 @@ public class Question
     {
         return selectedAnswer == correctAnswerNumber;
     }
-
-
 }

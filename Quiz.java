@@ -84,6 +84,17 @@ public class Quiz
                             choiceArray[2].substring(3), choiceArray[3].substring(3));
     }
 
+    public void nextQuestion()
+    {
+        if (currentQuestion < totalQuestions)
+            currentQuestion++;
+    }
+
+    public int getCurrentQuestionNumber()
+    {
+        return currentQuestion;
+    }
+
     public Question getCurrentQuestion()
     {
         return questions[currentQuestion - 1];
