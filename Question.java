@@ -1,47 +1,58 @@
-/** @author Manseej Khatri
+/** @author Manseej Khatri edited by Andrew Wang
  *  My little contribution to the end of the year project
  *  Thank you for all that you have done for us
  */
 
-
 public class Question
 {
-    // instant variables
-    // answer choices correlate to a number (ie 0 = A, 1 = B, 2 = C, 3 = D)
-    private String[] answerChoices;
-    private int correctAnswerNumber;
+    // Instance variables
+    /** questionText - The actual question prompt */
     private String questionText;
+    /** correctAnswerNumber - The index in the array which corresponds with the correct answer */
+    private int correctAnswerNumber;
+    /** answerChoices - An array holding the text for each answer choice. A - answerChoices[0], B - answerChoices[1], etc. */
+    private String[] answerChoices;
 
-    public Question(String questionText, int correctAnswerNumber, String choiceA, String choiceB, String choiceC,
-                    String choiceD)
+
+    // Constructor
+    /**
+     * Question() - Constructor for objects of type question.
+     *
+     * @param questionText - Question prompt
+     * @param correctAnswerNumber - Number corresponding with correct answer
+     * @param choiceA - Text for choice A
+     * @param choiceB - Text for choice B
+     * @param choiceC - Text for choice C
+     * @param choiceD - Text for choice D
+     */
+    public Question(String questionText, int correctAnswerNumber, String choiceA, String choiceB, String choiceC, String choiceD)
     {
-        //sorry for the "this statement pls forgive me"
-        this.answerChoices = new String[]{choiceA,choiceB,choiceC,choiceD};
+        // Use of this to promote readability
+        this.answerChoices = new String[]{choiceA, choiceB, choiceC, choiceD};
         this.correctAnswerNumber = correctAnswerNumber;
         this.questionText = questionText;
     }
 
-    // takes in the choice num and returns the choice text
+
+    // Methods
+    /**
+     * getChoiceText() - Returns the text for a given answer choice
+     * @param choiceNum - int from 0-3 corresponding with A-D
+     * @return
+     */
     public String getChoiceText(int choiceNum)
     {
         return answerChoices[choiceNum];
     }
 
-    // checks to see if the selected answer is equal to the correct answer
-    public boolean isCorrect(Object selectedAnswer)
+    /**
+     * isCorrect() - Returns true if the selected answer is correct, false otherwise
+     * @param selectedAnswer - int from 0-3 corresponding with A-D
+     * @return Whether the selected answer choice is correct
+     */
+    public boolean isCorrect(int selectedAnswer)
     {
-        //to keep only one exit
-        boolean equalCheck = false;
-
-        if((int)selectedAnswer == this.correctAnswerNumber)
-        {
-            equalCheck = true;
-        }
-        else
-        {
-            equalCheck = false;
-        }
-        return equalCheck;
+        return selectedAnswer == correctAnswerNumber;
     }
 
 
