@@ -8,6 +8,7 @@ import java.io.File;
 
 public class Quiz
 {
+    boolean started;
     private Question[] questions;
     private int currentQuestion;
     private int totalQuestions;
@@ -17,6 +18,21 @@ public class Quiz
         this.questions = load("QuestionData.txt");
         this.currentQuestion = 1;
         this.totalQuestions = questions.length;
+    }
+
+    public boolean isStarted()
+    {
+        return started;
+    }
+
+    public void start()
+    {
+        started = true;
+    }
+
+    public void checkCurrentQuestion(int answer)
+    {
+        questions[currentQuestion - 1].check(answer);
     }
 
     // Method to create an array of questions for the quiz
@@ -79,15 +95,12 @@ public class Quiz
         }
 
         // Return created question
-        return new Question(QuestionText, correctNum,
-                            choiceArray[0].substring(3), choiceArray[1].substring(3),
-                            choiceArray[2].substring(3), choiceArray[3].substring(3));
+        return new Question(QuestionText, correctNum, choiceArray[0], choiceArray[1], choiceArray[2], choiceArray[3]);
     }
 
     public void nextQuestion()
     {
-        if (currentQuestion < totalQuestions)
-            currentQuestion++;
+        currentQuestion++;
     }
 
     public int getCurrentQuestionNumber()
@@ -97,12 +110,23 @@ public class Quiz
 
     public Question getCurrentQuestion()
     {
-        return questions[currentQuestion - 1];
+        Question ret = null;
+
+        try
+        {
+            ret = questions[currentQuestion - 1];
+        }
+        catch (Exception e)
+        {
+            ret = new Question("Easter egg!", 0, "A", "B", "C", "D");
+        }
+
+        return ret;
     }
 
     public boolean isComplete()
     {
-        return currentQuestion == totalQuestions;
+        return currentQuestion > totalQuestions;
     }
 
 }
