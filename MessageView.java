@@ -14,7 +14,7 @@ import javafx.scene.input.MouseButton;
 
 /**
  * New Window to view messages
- * @author Matthew Oh
+ * @author Matthew Oh,
  * Thanks for being an awesome teacher!
  */
 public class MessageView
@@ -29,8 +29,8 @@ public class MessageView
         
         names = new ListView();
         names.getItems().addAll(
-        new msg("name1", "msg1"), new msg("name2", "msg2"),
-        new msg("name3", "msg3"));
+            new msg("name1", "msg1"), new msg("name2", "msg2"),
+            new msg("name3", "msg3"));
         names.setMinWidth(200);
         names.setMaxWidth(200);
         
@@ -40,7 +40,7 @@ public class MessageView
             {
                 msg m = (msg)names.getSelectionModel().getSelectedItems().get(0);
                 //System.out.println(m);
-                message.setText(m.getMSG());
+                message.setText(m.getNote());
             }
         });
         

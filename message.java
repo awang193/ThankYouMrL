@@ -7,7 +7,7 @@
 public class message
 {
     //instance variables
-    private String author, message;
+    private String author, note;
 
     /**Constructor to initialize a message */
     public message(String author, String note)
@@ -32,6 +32,14 @@ public class message
     public String getAuthor()
     {
         return author;
+    }
+
+    /**
+     * @override toString in Object
+     */
+    public String toString()
+    {
+        return getAuthor();
     }
 
 }
