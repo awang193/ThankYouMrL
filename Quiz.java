@@ -1,6 +1,6 @@
 /**
  *
- * @author Manseej Khatri, Andrew Wang
+ * @author Manseej Khatri, Andrew Wang, Kelechi Uhegbu
  */
 
 import java.util.Scanner;
