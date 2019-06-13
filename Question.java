@@ -6,6 +6,7 @@
 public class Question
 {
     // Instance variables
+    private boolean finished;
     /** questionText - The actual question prompt */
     private String questionText;
     /** correctAnswerNumber - The index in the array which corresponds with the correct answer */
@@ -28,6 +29,7 @@ public class Question
     public Question(String questionText, int correctAnswerNumber, String choiceA, String choiceB, String choiceC, String choiceD)
     {
         // Use of this to promote readability
+        this.finished = false;
         this.answerChoices = new String[]{choiceA, choiceB, choiceC, choiceD};
         this.correctAnswerNumber = correctAnswerNumber;
         this.questionText = questionText;
@@ -35,14 +37,14 @@ public class Question
 
 
     // Methods
-    /**
-     * getChoiceText() - Returns the text for a given answer choice
-     * @param choiceNum - int from 0-3 corresponding with A-D
-     * @return
-     */
-    public String getChoiceText(int choiceNum)
+    public String getQuestionText()
     {
-        return answerChoices[choiceNum];
+        return questionText;
+    }
+
+    public boolean isFinished()
+    {
+        return finished;
     }
 
     /**
@@ -50,10 +52,24 @@ public class Question
      * @param selectedAnswer - int from 0-3 corresponding with A-D
      * @return Whether the selected answer choice is correct
      */
-    public boolean isCorrect(int selectedAnswer)
+    public void check(int selectedAnswer)
     {
-        return selectedAnswer == correctAnswerNumber;
+        if (selectedAnswer == correctAnswerNumber)
+            finished = true;
     }
 
+    /**
+     * getChoiceText() - Returns the text for a given answer choice
+     * @param choiceNum - int from 0-3 corresponding with A-D
+     * @return
+     */
+    public String getChoiceText(int choiceNum)
+    {
+        String choiceText = answerChoices[choiceNum];
 
+        if (choiceText.indexOf("(correct)") != -1)
+            choiceText = choiceText.substring(0, choiceText.indexOf("(correct)"));
+
+        return choiceText;
+    }
 }
