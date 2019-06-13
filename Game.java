@@ -1,13 +1,14 @@
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 public class Game extends Application
@@ -36,23 +37,36 @@ public class Game extends Application
 
         // Crypto scene
         Label prompt = new Label("That's full points. To advance to the end, decrypt this message to get the password");
+        prompt.setWrapText(true);
+
         VBox cryptoVBox = new VBox(prompt);
+        cryptoVBox.setPadding(new Insets(20));
 
         Scene cryptoScene = new Scene(cryptoVBox, 500, 500);
-
+        cryptoScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
 
         // Quiz scene
-        GridPane questionGrid = null;
+        VBox quizVBox = new VBox();
+        Scene quizScene = new Scene(quizVBox, 650, 500);
+        quizScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
+
+        GridPane questionGrid;
 
         currentQ = quiz.getCurrentQuestion();
 
         header = new Label("Question " + quiz.getCurrentQuestionNumber() + ":");
         question = new Label(currentQ.getQuestionText());
+        question.setWrapText(true);
 
         Button choiceA = new Button(currentQ.getChoiceText(0));
         Button choiceB = new Button(currentQ.getChoiceText(1));
         Button choiceC = new Button(currentQ.getChoiceText(2));
         Button choiceD = new Button(currentQ.getChoiceText(3));
+
+        choiceA.wrapTextProperty().setValue(true);
+        choiceB.wrapTextProperty().setValue(true);
+        choiceC.wrapTextProperty().setValue(true);
+        choiceD.wrapTextProperty().setValue(true);
 
         choiceA.setOnMouseClicked(event -> {
             quiz.checkCurrentQuestion(0);
@@ -77,12 +91,14 @@ public class Game extends Application
         questionGrid.add(choiceD, 1, 1);
 
         questionGrid.setAlignment(Pos.CENTER);
-        questionGrid.setLayoutY(300);
+        questionGrid.setHgap(15);
+        questionGrid.setVgap(15);
+        questionGrid.setPadding(new Insets(15));
 
-        VBox quizVBox = new VBox(header, question, questionGrid);
-        quizVBox.setAlignment(Pos.CENTER);
-
-        Scene quizScene = new Scene(quizVBox, 500, 500);
+        quizVBox.getChildren().addAll(header, question, questionGrid);
+        quizVBox.setAlignment(Pos.TOP_CENTER);
+        quizVBox.setSpacing(10);
+        quizVBox.setPadding(new Insets(20));
 
         // Main menu
         Label title = new Label("Thank You Mr. L, the Game");
@@ -97,6 +113,7 @@ public class Game extends Application
         mainVBox.setSpacing(100);
 
         Scene mainScene = new Scene(mainVBox, 500, 500);
+        mainScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
 
         stage.setScene(mainScene);
 
@@ -132,8 +149,6 @@ public class Game extends Application
         };
 
         timer.start();
-
-
     }
 
     public static void main(String[] args)
