@@ -6,6 +6,7 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
@@ -36,14 +37,42 @@ public class Game extends Application
         Game g = new Game();
 
         // Crypto scene
-        Label prompt = new Label("That's full points. To advance to the end, decrypt this message to get the password");
+        VBox cryptoVBox = new VBox();
+        cryptoVBox.setAlignment(Pos.CENTER);
+        cryptoVBox.setSpacing(50);
+
+        Scene cryptoScene = new Scene(cryptoVBox, 650, 500);
+        cryptoScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
+
+        Label prompt = new Label("That's full points. To advance to the end, decrypt this message from Ascus II to get the password:");
+
+        TextField copyable = new TextField(finalChallenge.getEncrypted());
+        copyable.setEditable(false);
+        copyable.setId("copyable-label");
+
         prompt.setWrapText(true);
 
-        VBox cryptoVBox = new VBox(prompt);
-        cryptoVBox.setPadding(new Insets(20));
+        TextField answerBox = new TextField();
+        answerBox.setPromptText("Enter your answer here!");
+        Button answerButton = new Button("submit!");
 
-        Scene cryptoScene = new Scene(cryptoVBox, 500, 500);
-        cryptoScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
+        answerButton.setOnMouseClicked(event ->
+        {
+            System.out.println(answerBox.getText());
+            String answer = answerBox.getText();
+            if(answer != null)
+            {
+                if(answer.equals(finalChallenge.getDecrypted()))
+                {
+                    MessageView finalMessages = new MessageView();
+                    finalMessages.display();
+                    ((Stage)answerButton.getScene().getWindow()).close();
+                }
+            }
+        });
+
+        cryptoVBox.getChildren().addAll(prompt, copyable ,answerBox,answerButton);
+
 
         // Quiz scene
         VBox quizVBox = new VBox();
@@ -54,7 +83,7 @@ public class Game extends Application
 
         currentQ = quiz.getCurrentQuestion();
 
-        header = new Label("Question " + quiz.getCurrentQuestionNumber() + ":");
+        header = new Label("Question " + quiz.getCurrentQuestionNumber() + " of " + quiz.getTotalQuestions() + ":");
         question = new Label(currentQ.getQuestionText());
         question.setWrapText(true);
 
@@ -100,19 +129,33 @@ public class Game extends Application
         quizVBox.setSpacing(10);
         quizVBox.setPadding(new Insets(20));
 
-        // Main menu
+        // more_code.Main menu
+        VBox mainVBox = new VBox();
+        Scene mainScene = new Scene(mainVBox, 500, 500);
+        mainScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
+
         Label title = new Label("Thank You Mr. L, the Game");
+        Label authors = new Label ("Written with care by Andrew Wang, Manseej Khatri, Matthew Oh, Kelechi Uhegbu, Darshan Parekh, Phoenix Dimagiba, Jason Giese, and Thomas Joel\n\nFeaturing messages from many others from your classes.");
+        authors.setWrapText(true);
+        authors.setId("label-small");
+        authors.setAlignment(Pos.CENTER);
+
+        VBox titleBox = new VBox(title, authors);
+        titleBox.setAlignment(Pos.CENTER);
+        titleBox.setSpacing(25);
+
         Button playButton = new Button("Play");
         playButton.setOnMouseClicked(event -> {
             stage.setScene(quizScene);
             quiz.start();
         });
 
-        VBox mainVBox = new VBox(title, playButton);
-        mainVBox.setAlignment(Pos.CENTER);
-        mainVBox.setSpacing(100);
+        mainVBox.getChildren().addAll(titleBox, playButton);
 
-        Scene mainScene = new Scene(mainVBox, 500, 500);
+        mainVBox.setAlignment(Pos.CENTER);
+        mainVBox.setSpacing(50);
+
+
         mainScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
 
         stage.setScene(mainScene);
@@ -131,7 +174,7 @@ public class Game extends Application
                         quiz.nextQuestion();
                         currentQ = quiz.getCurrentQuestion();
 
-                        header.setText("Question " + quiz.getCurrentQuestionNumber() + ":");
+                        header.setText("Question " + quiz.getCurrentQuestionNumber() + " of " + quiz.getTotalQuestions() + ":");
                         question.setText(currentQ.getQuestionText());
 
                         choiceA.setText(currentQ.getChoiceText(0));

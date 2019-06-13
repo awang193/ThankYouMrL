@@ -1,3 +1,5 @@
+package more_code;
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
@@ -10,7 +12,7 @@ import javafx.event.EventHandler;
 import javafx.event.ActionEvent;
 
 /**
- * Main Application for JavaFX
+ * more_code.Main Application for JavaFX
  * @author Matthew Oh c:
  * Thanks for being such an awesome teacher
  */

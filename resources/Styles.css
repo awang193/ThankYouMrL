@@ -7,6 +7,16 @@
     -fx-font-size: 20;
 }
 
+#label-small {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 14;
+}
+
+#copyable-label, #copyable-label:focused {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0px ;
+}
+
 .button {
     -fx-font-family: "8BIT WONDER";
     -fx-font-size: 12;

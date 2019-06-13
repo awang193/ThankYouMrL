@@ -34,7 +34,7 @@ public class MessageView
         window.setTitle("Thank You Messages");
         
         names = new ListView();
-        ArrayList<Message> messages = MessageLoader.load("test.txt");
+        ArrayList<Message> messages = MessageLoader.load("messages.txt");
         for (Message m: messages)
             names.getItems().add(m);
         names.setMinWidth(200);
@@ -51,7 +51,7 @@ public class MessageView
             }
         });
         
-        text = new Label("1\n2\n3\n4\n5\n6\n7\n8\n9\n10");
+        text = new Label("Here are the messages from all of us who worked on the game as well as many other students. Here we'd like you to know how much we appreciate you for your time at DNHS.");
         text.setWrapText(true);
         text.setMinWidth(300);
         text.setMaxWidth(300);
@@ -60,7 +60,7 @@ public class MessageView
         
         VBox v = new VBox();
         v.getChildren().add(text);
-        v.setPadding(new Insets(5));
+        v.setPadding(new Insets(10));
         text.setAlignment(Pos.TOP_LEFT);
         HBox h = new HBox();
         h.getChildren().addAll(names,v);
