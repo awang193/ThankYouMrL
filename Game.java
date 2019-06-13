@@ -1,15 +1,22 @@
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
+/**
+ * Game - Driver class for the thank you application
+ *
+ * @author Andrew Wang, Manseej Khatri, Matthew Oh
+ */
 public class Game extends Application
 {
     private boolean quizStarted;
@@ -35,24 +42,65 @@ public class Game extends Application
         Game g = new Game();
 
         // Crypto scene
-        Label prompt = new Label("That's full points. To advance to the end, decrypt this message to get the password");
-        VBox cryptoVBox = new VBox(prompt);
+        VBox cryptoVBox = new VBox();
+        cryptoVBox.setAlignment(Pos.CENTER);
+        cryptoVBox.setSpacing(50);
 
-        Scene cryptoScene = new Scene(cryptoVBox, 500, 500);
+        Scene cryptoScene = new Scene(cryptoVBox, 650, 500);
+        cryptoScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
+
+        Label prompt = new Label("That's full points. To advance to the end, decrypt this message from Ascus II to get the password:");
+
+        TextField copyable = new TextField(finalChallenge.getEncrypted());
+        copyable.setEditable(false);
+        copyable.setId("copyable-label");
+
+        prompt.setWrapText(true);
+
+        TextField answerBox = new TextField();
+        answerBox.setPromptText("Enter your answer here!");
+        Button answerButton = new Button("submit!");
+
+        answerButton.setOnMouseClicked(event ->
+        {
+            System.out.println(answerBox.getText());
+            String answer = answerBox.getText();
+            if(answer != null)
+            {
+                if(answer.equals(finalChallenge.getDecrypted()))
+                {
+                    MessageView finalMessages = new MessageView();
+                    finalMessages.display();
+                    ((Stage)answerButton.getScene().getWindow()).close();
+                }
+            }
+        });
+
+        cryptoVBox.getChildren().addAll(prompt, copyable ,answerBox,answerButton);
 
 
         // Quiz scene
-        GridPane questionGrid = null;
+        VBox quizVBox = new VBox();
+        Scene quizScene = new Scene(quizVBox, 650, 500);
+        quizScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
+
+        GridPane questionGrid;
 
         currentQ = quiz.getCurrentQuestion();
 
-        header = new Label("Question " + quiz.getCurrentQuestionNumber() + ":");
+        header = new Label("Question " + quiz.getCurrentQuestionNumber() + " of " + quiz.getTotalQuestions() + ":");
         question = new Label(currentQ.getQuestionText());
+        question.setWrapText(true);
 
         Button choiceA = new Button(currentQ.getChoiceText(0));
         Button choiceB = new Button(currentQ.getChoiceText(1));
         Button choiceC = new Button(currentQ.getChoiceText(2));
         Button choiceD = new Button(currentQ.getChoiceText(3));
+
+        choiceA.wrapTextProperty().setValue(true);
+        choiceB.wrapTextProperty().setValue(true);
+        choiceC.wrapTextProperty().setValue(true);
+        choiceD.wrapTextProperty().setValue(true);
 
         choiceA.setOnMouseClicked(event -> {
             quiz.checkCurrentQuestion(0);
@@ -77,26 +125,43 @@ public class Game extends Application
         questionGrid.add(choiceD, 1, 1);
 
         questionGrid.setAlignment(Pos.CENTER);
-        questionGrid.setLayoutY(300);
+        questionGrid.setHgap(15);
+        questionGrid.setVgap(15);
+        questionGrid.setPadding(new Insets(15));
 
-        VBox quizVBox = new VBox(header, question, questionGrid);
-        quizVBox.setAlignment(Pos.CENTER);
+        quizVBox.getChildren().addAll(header, question, questionGrid);
+        quizVBox.setAlignment(Pos.TOP_CENTER);
+        quizVBox.setSpacing(10);
+        quizVBox.setPadding(new Insets(20));
 
-        Scene quizScene = new Scene(quizVBox, 500, 500);
+        // more_code.Main menu
+        VBox mainVBox = new VBox();
+        Scene mainScene = new Scene(mainVBox, 500, 500);
+        mainScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
 
-        // Main menu
         Label title = new Label("Thank You Mr. L, the Game");
+        Label authors = new Label ("Written with care by Andrew Wang, Manseej Khatri, Matthew Oh, Kelechi Uhegbu, Darshan Parekh, Phoenix Dimagiba, Jason Giese, and Thomas Joel\n\nFeaturing messages from many others from your classes.");
+        authors.setWrapText(true);
+        authors.setId("label-small");
+        authors.setAlignment(Pos.CENTER);
+
+        VBox titleBox = new VBox(title, authors);
+        titleBox.setAlignment(Pos.CENTER);
+        titleBox.setSpacing(25);
+
         Button playButton = new Button("Play");
         playButton.setOnMouseClicked(event -> {
             stage.setScene(quizScene);
             quiz.start();
         });
 
-        VBox mainVBox = new VBox(title, playButton);
-        mainVBox.setAlignment(Pos.CENTER);
-        mainVBox.setSpacing(100);
+        mainVBox.getChildren().addAll(titleBox, playButton);
 
-        Scene mainScene = new Scene(mainVBox, 500, 500);
+        mainVBox.setAlignment(Pos.CENTER);
+        mainVBox.setSpacing(50);
+
+
+        mainScene.getStylesheets().add(Game.class.getResource("resources/Styles.css").toExternalForm());
 
         stage.setScene(mainScene);
 
@@ -114,7 +179,7 @@ public class Game extends Application
                         quiz.nextQuestion();
                         currentQ = quiz.getCurrentQuestion();
 
-                        header.setText("Question " + quiz.getCurrentQuestionNumber() + ":");
+                        header.setText("Question " + quiz.getCurrentQuestionNumber() + " of " + quiz.getTotalQuestions() + ":");
                         question.setText(currentQ.getQuestionText());
 
                         choiceA.setText(currentQ.getChoiceText(0));
@@ -132,8 +197,6 @@ public class Game extends Application
         };
 
         timer.start();
-
-
     }
 
     public static void main(String[] args)

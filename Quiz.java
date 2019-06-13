@@ -109,6 +109,11 @@ public class Quiz
         return currentQuestion;
     }
 
+    public int getTotalQuestions()
+    {
+        return totalQuestions;
+    }
+
     public Question getCurrentQuestion()
     {
         Question ret = null;

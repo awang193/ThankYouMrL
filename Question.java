@@ -52,10 +52,18 @@ public class Question
      * @param selectedAnswer - int from 0-3 corresponding with A-D
      * @return Whether the selected answer choice is correct
      */
-    public void check(int selectedAnswer)
+    public boolean check(int selectedAnswer)
     {
+        boolean ret = false;
+
         if (selectedAnswer == correctAnswerNumber)
+        {
             finished = true;
+            ret = true;
+        }
+
+        return ret;
+
     }
 
     /**
