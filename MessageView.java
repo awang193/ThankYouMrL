@@ -34,7 +34,7 @@ public class MessageView
         window.setTitle("Thank You Messages");
         
         names = new ListView();
-        ArrayList<Message> messages = MessageLoader.load("test.txt");
+        ArrayList<Message> messages = MessageLoader.load("messages.txt");
         for (Message m: messages)
             names.getItems().add(m);
         names.setMinWidth(200);
