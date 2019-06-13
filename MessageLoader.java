@@ -7,12 +7,12 @@ import java.util.Scanner;
 import java.io.File;
 import java.util.ArrayList;
 
-public class messageLoader
+public class MessageLoader
 {
     // loads messages from a file and returns an array
-    public static ArrayList<message> load(String filename)
+    public static ArrayList<Message> load(String filename)
     {
-        ArrayList<message> messages = new ArrayList<>();
+        ArrayList<Message> messages = new ArrayList<>();
         try (Scanner sc = new Scanner(new File(filename)))
         {
             String author = (sc.nextLine()).substring("(author)".length());
@@ -28,7 +28,7 @@ public class messageLoader
                         authorFlag = true;
                         if(!sc.hasNextLine())
                             message += templine;
-                        messages.add(new message(author,message));
+                        messages.add(new Message(author,message));
                         if(sc.hasNextLine())
                             author = templine.substring("(author)".length());
                         message = "";

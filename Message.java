@@ -10,7 +10,7 @@ public class Message
     private String author, note;
 
     /**Constructor to initialize a message */
-    public message(String author, String note)
+    public Message(String author, String note)
     {
         this.author = author;
         this.note = note;
