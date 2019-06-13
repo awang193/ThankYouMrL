@@ -12,6 +12,11 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
+/**
+ * Game - Driver class for the thank you application
+ *
+ * @author Andrew Wang, Manseej Khatri, Matthew Oh
+ */
 public class Game extends Application
 {
     private boolean quizStarted;
