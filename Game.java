@@ -63,7 +63,6 @@ public class Game extends Application
 
         answerButton.setOnMouseClicked(event ->
         {
-            System.out.println(answerBox.getText());
             String answer = answerBox.getText();
             if(answer != null)
             {
