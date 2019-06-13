@@ -4,7 +4,7 @@
  */
 
 
-public class message
+public class Message
 {
     //instance variables
     private String author, note;
