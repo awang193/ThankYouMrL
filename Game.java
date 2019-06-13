@@ -6,7 +6,10 @@ import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -36,10 +39,34 @@ public class Game extends Application
 
         // Crypto scene
         Label prompt = new Label("That's full points. To advance to the end, decrypt this message to get the password:");
+        Label challenge = new Label(finalChallenge.getEncrypted());
         prompt.setWrapText(true);
+        challenge.setWrapText(true);
         VBox cryptoVBox = new VBox(prompt);
 
+        TextField answerBox = new TextField(); //for answering
+        answerBox.setPromptText("Enter your answer here!");
+        Button answerButton = new Button("submit!");
+        answerButton.setOnMouseClicked(event ->
+        {
+            System.out.println(answerBox.getText());
+            String answer = answerBox.getText();
+            if(answer != null)
+            {
+                if(answer.equals(finalChallenge.getDecrypted()))
+                {
+                    MessageView finalMessages = new MessageView();
+                    finalMessages.display();
+                    ((Stage)answerButton.getScene().getWindow()).close();
+                }
+            }
+        });
+
+
+        cryptoVBox.getChildren().addAll(challenge,answerBox,answerButton);
+        cryptoVBox.setSpacing(10.0);
         Scene cryptoScene = new Scene(cryptoVBox, 500, 500);
+
 
 
         // Quiz scene
