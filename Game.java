@@ -35,7 +35,8 @@ public class Game extends Application
         Game g = new Game();
 
         // Crypto scene
-        Label prompt = new Label("That's full points. To advance to the end, decrypt this message to get the password");
+        Label prompt = new Label("That's full points. To advance to the end, decrypt this message to get the password:");
+        prompt.setWrapText(true);
         VBox cryptoVBox = new VBox(prompt);
 
         Scene cryptoScene = new Scene(cryptoVBox, 500, 500);
