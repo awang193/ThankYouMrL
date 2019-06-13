@@ -1,11 +1,153 @@
-(author)Manseej
-owo
+(author) Kelechi Uhegbu
+Mr L, thanks for allowing me into APCS my sophomore year. I had such a wonderful time in both the class and developing my skills by interacting with my fellow c0d3rs in CS Club. I was so surprised by you integrated your love of music in the class, and showed me that it's okay to continue to continue two of my passions (computer science and music) at the same time. I hope you love your new job as much as you loved us teaching us!
+Antonio Rojas
+Thank you Mr. L, was a good time these two years, and I’m glad we are all reaching greater lengths in our careers, no matter the path. So, thanks again, and best of luck.
+(author) Ambrish Parekh
+Mr. L, I’m sure you know this better than anyone, but you’re pretty good at your job. I don’t just mean that you’re good at teaching, I also mean that you know how to imbue your passion into others. It’s because of you that my whole life changed and I was able to find a new love for computer science. Thank you for guiding me all these years, even if you weren’t there in person. All the best wherever you go. You’ll always be amazing!
+(author) Akul Arora
+Mr. L, you've been an amazing teacher that really inspired me to love learning. You're lessons were always super engaging with your extremely fun and eccentric ways of explaining things. You're classes, both Intro to CS and APCS, made me certain that CS was what I wanted to major. You also showed me the fascinations of math and music that I will be fascinated by. Thank you so much for everything. I will miss as will the rest of Del Norte. I wish you the best as you go further into your career. Stay in touch!
+(author) Brandon Wang
+Mr. L, APCS has honestly been one of the most amazing experiences I could ask for and is by far my favorite class this year. I've had so much fun doing labs and working in the final project with my group. You are an amazing teacher and you inspire me with the amount of dedication you have to making your classroom a better place for all of your students. It's really sad to see you go but I know you'll be spreading your positivity to a lot more students over at the district office. Wish you the best of luck at your new job!
+(author) Thomas Joel
+Hey Mr. L, I just wanted to quickly thank you for being an incredibly dedicated and caring teacher. In the time that we’ve had together, you have helped me improve my tolerance for frustration and even my general attitude towards life. The vibrant energy you bring to class every day coupled with your love for music and programming is something that will inspire me for the rest of my life. I have no doubt that you will make great strides in making computer science fun and available to absolutely everyone, and I wish you the best of luck for your future! :^)
+(author) Jonathan Lee
+Mr. Lantsberger, 
 
-owo
-owo
+Thank you for the multitude of lessons you’ve taught me — lessons of not only computer science but also lessons that can not be taught with mere words. 
 
-owo
-(author)Darshan
-uwu
-uwu
-uwu
+Through your actions and words, I’ve realized how important it is to accept others and above all, to be supportive and compassionate to those closest to me like you’ve done for me. 
+
+Although I’m sad to see you leaving the Nest, I know you’ll be impacting even more students in our community. Keep up the good work and continue sharing your passion for music and coding ---:^)
+(author) Jeremy Li
+Hi Mr. Lantsberger!
+
+These past three years in your homeroom have been amazing, and the music we heard every week continued to astound me. Even though I was never in your Comp Sci class, I know that you’re an amazing teacher and an even better person. I hope you find everything that you’re looking for, and that the journey towards those goals is the greatest possible.
+(author) Lillian Shea
+Hiii Mr. L, you're easily one of the most fantabulous teachers I've ever had, and I will be eternally grateful for having you. Thanks for putting up with my idiocy for all those years, even when you certainly didn't have to bwahaha. (And thank you for tolerating logman and allowing it to exist on your whiteboard and in other miscellaneous places; logman appreciates it very very much). I hope you and your gravity-defying mohawk continue to inspire other people as you have inspired so many of us students throughout the years! :^D
+(author) Emily Park
+Hey Mr. L! I had such an amazing time in your classes! Thank you so much for making class incredibly enjoyable! You're one of the biggest influences in making my major decision easy-- I love how amazing you made computer science for me, and to this day, I continue telling everyone about my amazing computer science teacher ---:^) . Thank you for inspiring not only me, but also everyone else you've taught, and congrats on your promotion!!
+(author) Mateo Reyes 
+What’s poppin Mr. L! I just wanted to say thank you so so much. When I went into comp sci, I was a bit nervous on if I was gonna like the class or not but this ended up being the best class I have ever taken. I learned so much from you and it was pretty cool to be able to learn more about the history of music lol. I am really going to miss you next year in Ap cs but I also bet you are going to do an amazing job inspiring kids of all ages to become a programmer. Once again, thanks for being the greatest teacher I have ever had and I wish you the best of luck in the future! :)))
+(author) Ashok Canchi
+Hey Mr L! Thank you for teaching us that the Linker comes before the Compiler in Xcode. Haha but in all seriousness you’re definitely the best teacher I’ve ever had the honor of having. I’ll be honest, I really did not know if I wanted to continue the path of computer science after the first trimester. But your genuine words of encouragement made me want to persevere and keep doing this. And I honestly think that was one of the best decisions of my life. Good luck in your new job Mr L. We all will miss you. :) (Also thank you for introducing me to Karnivool, I’ve had their songs on repeat on spotify ever since u played it in class haha).
+(author) Abhinav Palacharla
+Hey Mr. L, I just wanted to take a moment and thank you for letting me join CS in the middle of the year, I’m glad I caught you before you left, and want you to know that the skills you have taught me in CS are invaluable. You are the reason I recommend this class to so many of the incoming freshman. I’m sad to see you leaving, but I know that with your new job, you’ll be able to do more for the CS community and hopefully turn more kids on to CS. :)
+(author) Maximus Novak
+Mr. L,
+The past 2 years in your class have been tremendously formative for me. I enjoyed every day in class and your bubbly style of teaching truly attributed to that. Thank you for developing a supportive 
+The past 2 years in your class have been tremendously formative for me. I enjoyed every day in class and your bubbly style of teaching truly attributed to that. Thank you for developing a supportive environment in class and for the clubs you advised. I appreciate the passion you put into teaching and the daily music history lessons were always the highlight of my day. I will always have the posters you auctioned off up in my room so I will never forget the most influential teacher I've ever had. Thank you for developing such a positive community at our school and building up the nest during your time at Del Norte. Have fun at the next step of your life and never change. :)
+(author) Aadil Umar 
+Mr. L,
+Thank you for being an inspiration to the many students who have taken CS with you. The encouraging environment you create in the classroom has had a great impact on me and so many other people. CS not only impacted my academic path in Del Norte, but also my hopes and goals. I will really miss the music you played everyday and the environment you created for us. Good luck in your new job! (Btw I think your passion for music is really cool!)
+(author) Alan Wang
+Hey Mr. L,
+Thank you for teaching the most unique and interesting CS class that I have had and probably ever will have, by always having new music playing every few days and teaching concepts in a way that was both informative and easy to understand. I appreciate that you always pushed me to pursue opportunities in CS outside of the classroom and supported me even when I wasn't in your class. Congratulations again on your new position, I know that you will help many other teachers follow in your footsteps and motivate students like me to continue pursuing CS. 
+(author) Reese Thornton
+Mr. L, walking into your class every morning with the pressure of the clock was always an exciting way to start my day. Learning about computer science online was always boring and tedious, you were the first teacher to really spark my interest in coding and I will forever be thankful to you for that. You are a great teacher and an even greater person. Thank you for putting up with us nerds. Best of luck in your future endeavors
+(author) Evan Knaggs
+Hey Mr. L, thanks for having a great class atmosphere tri 1 and 2, something to look forward to every day. Learning about the music at the start of the class was great, and I really appreciated it. You were the first teacher who made it interesting with your weird metaphors. Thanks for dealing with all of us, and we appreciate every moment of time you gave us. Thank you for everything, best wishes.
+(author) Lily Hu
+I’ll try to use my facebook and LinkedIn more, so I hope we can still stay in touch. I and all your students are so lucky to have had such an amazing teacher like you. Thank you so much for being so patient with us. I especially would like to thank you for having stayed way past 5 to help me on my labs when I struggled in AP Comp Sci sophomore year (2016-2017). I really appreciated the fact that you believed in me and pushed me to find the answers myself. And despite all the pity points, I’d like to credit the 5 I got on the AP test to your dedication in helping us. No teacher can replace your kindness, knowledge, and awesome music you’ve shared with us. Take care, congrats, and best of luck on your future endeavors! 
+(author) Shawn Oh
+Mr. Lantsberger, Congratulations on your new position! You’ve certainly worked hard and earned the respect and reputation you now have as one of the best teachers of all time. I and many others have had great times learning and experiencing your courses in high school. Taking your class may very well have changed my career path and future interests, and I am so grateful for what you’ve done here at Del Norte. Being able to take your classes for two years consecutively meant that everyday of my sophomore and junior years I had a class to look forward to. The creativity and passion you brought to class every day-- whether it was with new music or a fascinating programming concept-- was something that has truly changed my perspective of how education should be done. Keep doing what you’re doing and I’m sure you’ll change many lives for the better, like you have for us. 
+(author) Pranav Patil
+Mr. L, I’m so grateful to have had you as a teacher because you’re an amazingly interesting person who gives so much for your students. Your teaching is like magic and when you explain a topic it’s always crystal clear. I loved talking to you and I’ll miss you, but I’m glad that even more students will have the opportunity to feel the impact of your teaching. Thank you for everything!
+(author) Yimin Lu
+Dear Mr. Lantsberger,
+I may have only been in your class for a year, but you were the most chill teacher I've had while also making the class challenging and fun. I admit that in the beginning I only took AP Comp Sci for it being an AP course and all, but the labs made it much less boring for me as they were somewhat interesting to solve. You taught the material pretty thoroughly, but maybe at times too thoroughly for me (sorry for sleeping). However, moving forward, I hope you find your new job fun and make the best out of it!
+(author) Priya Khandelwal 
+Mr. Lantsberger, I don’t even know where to start… not only have you been such an amazing computer science teacher, but also a phenomenal mentor for me over the years. I have learned so much from you and I’m really going to miss having you around next year, especially for our morning conversations. We’re all really proud of you and appreciate everything you have done for Del Norte! I wish you all the best for your future endeavors!  
+(author) Shivi Chaubey
+Mr.L, you’ve been one of the most influential teachers I’ve had in High School. You’ve impacted my future in more ways than you can imagine. I really appreciate having a teacher that I know I can always have conversations with and will give me the best advice possible. I’m going to miss you a lot next year but I know you’ll be impacting so many more kids and their lives. Thank you for everything!
+(author) Anurag Pamuru
+Mr. L! Even now in college, your tutelage continues to help me navigate unknown terrains and I’m sure it will continue to do so for many years. The care to detail and passion you put towards teaching us gave me so much admiration for computer science and for the teaching community. Congratulations on your job at the district! 
+(author) Lucy Gao
+Hi Mr. L! Thank you for being the best CS teacher I could ever ask for. I’m really thankful for all the help and teaching you’ve given me throughout this year, and I’m glad to have learned my first coding language under your guidance. Thank you so much for putting your all into teaching us every single day and for bringing so much energy and enthusiasm into every single class. I’m certain I’m not alone in saying that you’ve definitely had a positive impact on my life, especially in encouraging me to pursue CS. Congratulations on your new job! 
+(author) Evan Serrano
+Dear Mr. Lantsberger, congratulations on your promotion! You have had such a significant impact on my life both as a student and as a coder. I would not have done nearly as well in my first-year college computer science courses if I didn’t have the strong foundation you gave me in both C and Java. My two years with you were amazing and I wished I could have taken a third class with you senior year. Thank you so much for introducing to me my love for programming and for being one of my best teachers and best of luck!
+(author) Emily Zhuang
+Mr. Lantsberger, you already know how much you’ve impacted my, and thousands of others, life. These past few years, you’ve been such a big role model for me because you’ve entered my life at a critical time when I was figuring things out. I’m still figuring things out! I often find myself imagining what career I will have in a few years time. Whether I will be training deep learning models, developing CGI software, or teaching high school students computer science, I know I will always be an 3X7R3M3 L337 H4CKZ0R, and I will continue chasing my ever-rising ceiling. Congratulations! 
+(author) Edward Xie
+Hi Mr. Lantsberger! Thanks for being one of my favorite teachers at Del Norte. I always looked forward to your classes and I think you’re a great teacher! I’m really happy that you were my first computer science teacher and really allowed me to love coding.  
+(author) Terry Feng
+Good morning Mr. Lantsberger and congratulations!
+Thank you so much for the past few years and being one of the most impactful mentors in my life. From my freshman year all the way up to my last months of high school, thank you for all your time and dedication to helping me grow, enjoy challenges, but also experience the fruits of hard work. Continue to do amazing things after you leave The Nest and continue to impact those around you in bigger and brighter ways! 
+(author) Phoenix Dimagiba
+Mr. Lantsberger, thank you again for making my first real foray into computer science a fun one! Though it wasn’t always easy (I’ll never see poker the same way ever again), I know “without a doubt, without a doubt,” that being in your class has made me a better music appreciator, student, and person. I’m sad that I won’t have you for APCS but I know you’re on to bigger and better things. Never forget: “Due later? Do later!”
+(author) Jason Giese
+Hey Mr. L! I’m happy to see that you are getting the recognition you deserve, but still a bit sad that I won’t be able to spend my last year at Del Norte with you. You described it best in class as ‘bittersweet’. I know that you’ll do great at your new job and will make future CS students even more prepared for their futures. You’ve taught me so much about both the mental and the technical side of CS, and I cannot thank you enough for everything you’ve done. 
+(author) Riki Osawa
+Hi Mr. Lantsberger! Congratulations on your promotion! I had tons of great experiences in your class. Your guidance has had a huge impact on my life and career decisions. I would not have found such a great focus if you were not my first CS teacher. I hope you continue to excel in your career and make a great impact on future students through the CS department.
+(author) Matthew Oh
+Mr. Lantsberger,
+Thank you for being such an awesome teacher! I always looked forward to being in your class, even when I was having a down day. My experience here at Del Norte would definitely not have been the same without you. It’s sad to see you leave, but I’m sure you can benefit so many more lives in your new job! 
+(author) Darshan Parekh
+Hey Mr. Lantsberger, 
+You've been a great teacher for me, and you have been one of my biggest inspirations. It will be a little sad to not be able to spend time with you during my senior year, but I am still really happy for your well deserved promotion. I want to give you all the thanks I can, because your incredible teaching style made me into a true CS n3rd. Your personality and your mohawk are two things that I can never forget, along with all of those lessons that you taught me. In my future CS career, I will always be thinking about every little thing that you've said to me and everyone in class. Thanks for being the best teacher!
+(author) Eric Chen
+Hi Mr. Lantsberger,
+Thank you for a GREAT two years. I have really enjoyed your class and I appreciate the time and efforts that you spend for us. I realize that you go above and beyond for all of us. You are a great teacher and I thank you for teaching me for the past two years. I wish you the best of luck in your next job as county education CS supervisor and your path in the future!
+Thanks,
+Eric Chen
+(author) Kane Xu
+Public class Farewell
+{
+public static void main(String[] args)
+{
+System.out.print(“Hi Mr. L”
++ “\nCongratulations on your promotion, you deserve it! Thank you so much for introducing me to Computer Science! Although this class was challenging for me, At this point, I probably already forgot how to use arraylists and linked lists (Sorry). But what I will not forget is your continuous positive attitude and energy towards teaching us (and the mohawk). You not only helped me develop my problem solving skills, but also taught me the pillars of perseverance and grit. You have inspired me to pursue a career in STEM. It is sad to know that you are leaving, but I am grateful for the opportunity to be your student. I hope you will impact many more students when you are at the district office, just like you did this year.  ”);
+}
+}
+
+Sorry for the extremely long String. Oh look, I remembered to put the delimiters and semicolon at the end! Hope the compiler doesn’t crash. ;)
+
+Your favorite APCS student,
+Kane Xu
+(author) Ian Xu
+.... .. / -- .-. .-.-.- / .-.. .- -. - ... -... . .-. --. . .-. --..-- / - .... .- -. -.- / -.-- --- ..- / ..-. --- .-. / -... . .. -. --. / .- / -.-. .- .-. .. -. --. --..-- / ..-. ..- -. --..-- / .- -. -.. / . -. --. .- --. .. -. --. / - . .- -.-. .... . .-. .-.-.- / -. --- - / --- -. .-.. -.-- / -.. .. -.. / -.-- --- ..- / .. -. - .-. --- -.. ..- -.-. . / -- . / - --- / -.-. --- -- .--. ..- - . .-. / ... -.-. .. . -. -.-. . --..-- / -... ..- - / -.-- --- ..- / .- .-.. ... --- / - .- ..- --. .... - / -- . / - --- / .... .- ...- . / .- / .--. --- ... .. - .. ...- . / --- ..- - .-.. --- --- -.- / --- -. / .-.. .. ..-. . -....- / - .... .- - / .-- .... . - .... . .-. / --- .-. / -. --- - / --- -. . / .-- .- -. - ... / - --- / -... . / .--. --- ... .. - .. ...- . / .. ... / .... .. ... -..-. .... . .-. / -.-. .... --- .. -.-. . .-.-.- / -.-. --- -. --. .-. .- - ..- .-.. .- - .. --- -. ... / --- -. / -.-- --- ..- .-. / -. . .-- / .--- --- -... --..-- / -.-- --- ..- / -.. . ... . .-. ...- . -.. / .. - -.-.-- / .. / .-- .. ... .... / -.-- --- ..- / .- .-.. .-.. / - .... . / -... . ... - -.-.-- / - .... .- -. -.- / -.-- --- ..- / ..-. --- .-. / -... . .. -. --. / -- -.-- / .- .--. -.-. ... / - . .- -.-. .... . .-. --..-- / .. .- -. / -..- ..-
+In case you forgot Morse Code.
+Translation:
+Hi Mr. Lantsberger,
+Thank you for being a caring, fun, and engaging teacher. Not only did you introduce me to Computer Science, but you also taught me to have a positive outlook on life- that whether or not one wants to be positive is his/her choice. Congratulations on your new job, you deserved it! I wish you all the best!
+Thank you for being my APCS teacher,
+Ian Xu
+
+(author) Alex Liu
+Hi Mr. Lantsberger,
+Thank you for being such a great teacher. Every day when I walk into your classroom, there is this energy and enthusiasm I don’t feel in other classes. This along with your unique personality has made you my favorite teacher. While I am sad that you are leaving, I hope you can use this opportunity to introduce more students to computer science.
+PS: Thank you for reading my terribly formatted FRQs
+(author) Ryan Wei
+Mr. L, Most of my favorite teachers have been "chill", the kind to strictly enforce rules on us stressed out students. You hold a special place among the teachers and people I've known as someone incredibly understanding yet demanding; kind, caring, yet unafraid to give any of us a kick in the seat of our pants. You've been passionate, patient, and any and every other redeeming quality I can't think of right now. Despite your atypical appearance, I think you embody everything a teacher should be--that normally idyll of a teacher as a warm, positive force and guardian angel. I'll miss you, but I won’t forget you and I know that if I'm doing anything right in my life this isn't goodbye. -Ryan
+(author) Keerthana Sundar
+Mr. L, even though I might not pursue a career in comp sci, I want you to know that you have had a profound impact on my life. Beyond teaching me a LOT about music (which I still remember, especially the whole Wagner + Nietzsche drama) and, of course, Tim the Enchanter, you challenged me to think beyond and solve problems rather than throwing my hands up and giving up. You taught me the importance of the process, not just the result, and I will carry those lessons with me for years to come. Your influence will be retained by both the school and the hundreds of students who feel your impact every single day of their lives (including me).
+Fernan Rashid 
+Hey there, Mr. L! I'm so excited for you and what the future holds for you. It is very rare to find people who are both caring and have a true compassion for helping others! I am so lucky to have had you be my teacher. You have helped me with my personal life and computer science. Although things at home get tough, it was always very welcoming to see your huge smile and bubbling personality every day I walked through that door. You are more than just a teacher to me. You are a father figure and someone I can always fall back too. I hope we keep in touch and can meet up sometime in the future and talk about some hockey! Go Gulls! I love you Mr. L, and I know your gonna rock in whatever you pursue! Rock on!
+(author) Julia Du
+Hi Mr. Lantsberger,
+Thank you for introducing me to computer science and being my homeroom teacher since I was a freshman! I’ve enjoyed all the music you’ve shown us every day: the didgeridoo in the first weeks of school, Baroque/Classical/Romantic music, Impressionist music (my favorite), jazz, and modern bands in the last weeks of school. We will miss your overwhelming positive energy.
+(author) Varun Agarwal
+Hey Mr. Lantsberger. I just want to thank you for all that you have done for me over the last 2 years. From the first day with the Didgeridoo till today, you have been my favorite teacher and I will never forget you. I have rewatched Monty Python and the Holy Grail multiple times, and loved every part of it every time. Thank you for all of your hard work and effort that you put into making your classes so amazing and full of excitement. I wouldn’t have loved computers nearly as much as I do now without you. I still remember all of the little things you did to make the classes amazing: the way you said fuchsia, the clicks and pop sounds you made when teaching about the stack and queue (or just q?), Zaphod Beeblebrox, Bill the cat, Henry the Stressed, and how could anyone forget about Tim the Enchanter? Thanks for being the best!
+(author) Daniel Chen
+Hey Mr. L, thanks for bringing me into the world of computer science. You made everything clear and easy to understand, and you never left anyone behind or confused. I am sure you will continue utilizing elements of that teaching style in your new job. You’re probably one of the only people I know who could teach or know how to teach computer science to a kindergartener. Your everyday enthusiasm has helped people going through hard times (like me) get out of our slumps. Thank you for being who you are, and we all wish you the best in your future endeavors. 
+(author) Samantha Wong
+Hi Mr. Lantsberger, thank you so much for this past year with your wonderful stories and music playlists. As someone who has never coded once in my life before taking this class, you made my introduction into the world of compsci a wonderful one. Whenever I walk through the door everyday during fourth period, you always have a huge smile on your face and a welcoming attitude, brightening up my day even if I was in a sucky mood that day. You are one of my favorite teachers as you are always so kind and caring and you always put so much effort into making class fun and enjoyable. Your energy and passion is amazing and so addicting; whenever I enter your classroom it’s as if I just start smiling naturally as well. Although I may not go into computer science in the future, I will always remember all the life lessons you have taught me. Thank you for always being there for me whenever I was struggling in class and with my test taking anxiety. Because of you I will always remember to live life with a positive attitude. Thank you so much and congrats on your promotion!
+(author) Andrew Wang
+
+
+(author) Omri Habot
+Mr Lantsberger, you’ve had a profound impact on me. Prior to this year, I never really appreciated music because I took it for granted, but your passion for it and daily demonstrations swiftly turned that around. You taught me that I should never dislike anything that I am ignorant of and that I should always strive for passion and positivity. I'm so lucky and thankful to have you as a teacher. I really appreciate everything you’ve done for us, especially maintaining a positive attitude every single day. On one hand, I’m sad that you’re leaving Del Norte, but on the other, I’m very happy that you’ll be in a position that will allow you to spread your magical influence to even more people. Thank you so much for all you’ve done, and I wish you the best of luck in the future!
+(author) Andrew Liu
+What’s good sensei ‍‍🙏
+
+Thanks for being such a great teacher. I learned a lot from you not only about code but also about the workplace and life in general. Thank you for teaching beyond the subject and building us up as people Del Norte will miss you, but I’m glad that you’re in a position to spread positivity and influence even more people.
+(author) Gokul Swamy
+Hello Mr. Lantsberger! While I never had the privilege of taking one of your classes, I wanted to thank you for allowing us to meet in your room after school for CS Club so many times. We all learned a huge amount from each other and I think it helped us clarify what we wanted to study in the future. I’m sorry to hear that Del Norte will be down one amazing teacher but I can’t wait to hear about what you’re doing your increased scope.
+(author) Julian Ramos
+Hallo Mr. Lantsberger! Thank you for all that you’ve done for us this past couple of years. My school experience improved so much as soon as the first trimester of Intro started. Your passion for mathematics and computer science has allowed me to find interests in stuff™ that I wouldn’t have otherwise. I’ve taken notes on small tangents you’ve gone on regarding math topics such as set theory and topology, as well as your stories of lived history, which has brought me to tons of fascinating information. I’ve always appreciated how you started off classes with an exploration of music and history, and I’ve learned so much because of that. It’s all so cool, and I’m glad to have had the pleasure of being your student. Those two classes were the best classes I’ve taken, and you have been my favorite teacher. Your positive outlook on life has done a lot for me, and I just want to say thank you. Good luck with your future endeavors! I’m sure that you’ll do great things.
+(author) Kylie Park
+Hey Mr. L! Congratulations on your new position! Thank you for all your hard work and effort into making our experience in computer science so great. I'm definitely grateful that my first proper exposure to computer science was from such an amazing teacher. You've helped me gain a clear insight into what it's really like being a programmer and sparked my passion for coding. We will definitely miss you next year!
+(author) Manseej Khatri
+Hi Mr. L. Thank you so much for all that you have done for us these years. You have not only been a great inspiration for me, but a great mentor. Thank you for always being a teacher that I could turn to. You have impacted my life in profound ways such as awakening my interest in computer science and math (and music too). You were always there to answer my questions, you always did it in￼
+ a way that made sense to me, and most importantly you were able to get me more invested in what I was learning. I am definitely going to miss you next year but I am extremely happy for you. Congratulations on your promotion and I wish you the best of luck!
+(author) Chan Park
+Hey Mr. L, thank you for always putting up with us. You’ve always encouraged us no matter how badly we failed your tests, and you always put your everything into teaching us no matter what you were going through. Grading labs probably took up so much of your time, and nonetheless, you always made sure to make every description of an error descriptive and detailed. Thank you so much for being there to answer questions and pushing us so hard throughout the year so that the AP Exam would be easy. I hope you enjoy your next job as much as we enjoyed having you as a teacher! 
